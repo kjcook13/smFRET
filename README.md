@@ -9,7 +9,7 @@ README.md: Documentation for understanding and using simulation codes.
 Each code is well commented with definitions of each parameter. Each code outputs a .rds file containing 4 columns of information extracted from the simulations.
 That is Bin_FRET = FRET, Bin_life_D = Lifetime, Var_life = Variance of Lifetime, ds = Dynamic Shift, and df = Donor fluorescence rate.
 The user can decide which values they are interested in plotting.
-To plot the simulations, 
+To plot the simulations of a representative dye trajectory, simply plot the sequence of values for the donor positions (Dx1,Dx2,Dx3) or the acceptor positions (Ax1,Ax2,Ax3).
 
 ## Isotropic_Final.R
 Script to simulate the anisotropic spring model in Section IIA and Figure 4A.
